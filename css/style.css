@@ -956,7 +956,10 @@ ul.navbar-nav-robotic > li.dropdown-menu {
     padding-top: 0;
     text-align: center;
 }
-
+.team-home-item h4 {
+    margin-top: 0;
+    padding-top: 0;
+    text-align: center;
 .team-home p.lead {
     font-size: 2.2em;
     text-align: center;
