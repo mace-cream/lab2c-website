@@ -1,0 +1,7 @@
+pages:
+  stage: deploy
+  script:
+    - echo "ok"
+  only:
+    - master
+    
