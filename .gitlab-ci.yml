@@ -1,5 +1,6 @@
 pages:
-  tags: website
+  tags: 
+    - website
   stage: deploy
   script:
     - echo "ok"
