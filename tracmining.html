@@ -66,57 +66,25 @@
 
     <div class="col-xs-12">
     <h2 class="section-title">Introduction</h2>
-    
-    <p>    Buildings consume about 40% of the total energy in the US and the cost of a building during the operation period compose more than 80% of its total cost over the whole life-cycle span. Therefore, it is vital to reduce the building operation energy consumption. In current commercial building, there are two kinds of control methods. One is the manually control system. As a matter of fact, the majority of electricity users do not need to pay for the corresponding fees, thus, the real payers cannot manage to persuade them into saving energy. Another is Building Automation and Control System.</p>
-    <center>
-        <img src="img/soc-trad.jpg"></br>
-            Fig.1  Traditional Building Control.
-    </center>
-
-    <p>The approach control and reduce energy by estimating user presences. However, this approach has many problems. Estimation can be inaccurate due to preference changes or non-response. Separation of users and the system separate their usage goals.</p>
-    <p>In order to solve the above problems, we proposes a social-technical system. We get user involved in the process of energy conservation by energy consumption feedback. Besides sensors, user gives a user preference estimation to control system based on his feeling about energy usage and environment. The control system combines the sensory data and user preference estimation to make the control decision.</p>
-    
-    <center>
-        <img src="img/soc-infr.jpg"></br>
-            Fig.2  Trajectory Data Mining Rationale.
-    </center>
-
-    <p>Social feedback allows user direct influence of systems and aligns goal of users and the system.The game is played between the system and the users. The system will announce a reward scheme for individual user or a group of users if they meet some energy saving requirement, and the users will make the decision whether they participate the game. Below is a figure to illustrate the system logics, where the combination of the game rule maker, the referee, and the reward dispenser is the system.</p>
-    <center>
-        <img src="img/soc-sys.jpg"></br>
-            Fig.3  Logics of the Trajectory Data Mining.
-    </center>
-    <p>There are two types of game of interests.</p>
-    <li>Individual Game: This type of game deals with the personal electricity consumption, aka the cubical energy bill, for example, the PC, desk lamps, phone chargers, etc. The personal electricity bill is solely decided by user him/herself.</li>
-    <li>Group Game: This type of game deals with the shared energy bill, such like AC, heating, ventilation, lighting, etc. The occupancy of the shared room should be monitored so as to map the energy bill to all the occupants in the space. Due to different comfort level and personal preference for temperature and lighting condition, the reward from host to the group users might not be evenly distributed users in the space. The game need to develop a mechanism that stimulate the collaborations amongst the users to reach a consensus on the temperature setup and lighting scheme that reduce the overall energy cost.</li>
-    <p>The following picture shows our system as well as the deployment situation. The backbone of the entire system is the local area network. It serves as a basis for different devices to communicate with different protocols. Four subsystems are connected to the LAN, that is, the lighting subsystem, the air conditioning subsystem, the sensing subsystem and the smart meter subsystem. The smart meter subsystem focuses on individual behavior monitoring. . It’s a wireless smart meter network that collects real-time energy consumption information and sends the data back to our server.</p>
-    <center>
-        <img src="img/soc-blk.jpg"></br>
-        Fig.4  Block Diagram of the Trajectory Data Mining System.
+    <p> 
+With the deployment of ubiquitous sensors, human or vehicle trajectories obtained from call detail records or GPS devices provide abundant information of urban mobility. I have been focusing on understanding and extracting mobility patterns based on taxi GPS data, which could provide insights for traffic management authorities. These work are:
+    <ol>
+	<li>
+		Discovering how transportation network companies like Didi and Uber influence taxi industry;
+	</li>
+	<li>
+		Utilizing taxi trip data for customized bus service area design;
+	</li>
+	<li>
+		Partitioning city regions while extracting movement patterns to understand urban mobility.
+	</li>
+    </ol>
+    </p>
+    <center>    
+        <img src="img/trac-mining-inner.jpg"></br>
     </center>
    
-    <h2 class="section-title">Testbeds</h2>
-    </div>
-    <div class="col-lg-6 col-md-6 col-sm-6">
-        <figure class="caption cs-style-3">
-            <img src="img/soc-rohm.jpg" alt="img/soc-rohm-1.jpg">
-                <figcaption>
-                    <h3>Tsinghua Testbed</h3>
-                    <span>1000 m2 testbed in Rohm-EE Hall, Tsinghua University. </span>
-                    <a class="btn btn-robotic-inverse" href="http://166.111.64.36:9000/home">Take a look</a>
-                </figcaption>
-                </figure>
-    </div>
-    <div class="col-lg-6 col-md-6 col-sm-6">
-        <figure class="caption cs-style-3">
-            <img src="img/soc-cory.jpg" alt="img02">
-                <figcaption>
-                    <h3>Berkeley Trajectory Data Mining Testbed</h3>
-                    <span>300m2 testbed in Cory Hall, Berkeley</span>
-                    <a class="btn btn-robotic-inverse" href="http://sbb01.eecs.berkeley.edu">Take a look</a>
-                </figcaption>
-                </figure>
-    </div>
+    </div> <!-- col -->
 
     </div>  <!-- row -->
     
