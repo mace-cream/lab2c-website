@@ -2,8 +2,10 @@ pages:
   tags: 
     - website
   stage: deploy
-  script:
-    - echo "ok"
+  script: 
+    # cd to /home/feng/lab2c-website and execute command
+    - cd /home/feng/lab2c-website
+    - git pull origin master
   only:
     - master
     
